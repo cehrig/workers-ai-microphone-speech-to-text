@@ -76,7 +76,7 @@ const html = `
                             </br>
                             <b>This site needs access to your microphone. Your audio data will be converted to a WAVE PCM file within a Cloudflare Worker and is only used for speech-to-text recognition. No audio data will be stored.</b></br>
                             </br>
-                            <a href = "https://github.com/cehrig/workers-ai-microphone-speech-to-text/tree/main">Github</a>  
+                            <a style = "color: #d63384;" href = "https://github.com/cehrig/workers-ai-microphone-speech-to-text/tree/main">Source on GitHub</a>  
                         </p>
                         <div class = "row">
                             <div class = "col-5" id="request" style = "color: #d63384; font-size: 20px"></div>
