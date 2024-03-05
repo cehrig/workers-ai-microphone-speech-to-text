@@ -74,7 +74,9 @@ const html = `
                             <code>@cf/openai/whisper</code> will convert your speech-to-text.</br>
                             <code>@cf/mistral/mistral-7b-instruct-v0.1</code> will respond if you ask for something nice. </br>
                             </br>
-                            <b>This site needs access to your microphone. Your audio data will be converted to a WAVE PCM file within a Cloudflare Worker and is only used for speech-to-text recognition. No audio data will be stored.</b>  
+                            <b>This site needs access to your microphone. Your audio data will be converted to a WAVE PCM file within a Cloudflare Worker and is only used for speech-to-text recognition. No audio data will be stored.</b></br>
+                            </br>
+                            <a href = "https://github.com/cehrig/workers-ai-microphone-speech-to-text/tree/main">Github</a>  
                         </p>
                         <div class = "row">
                             <div class = "col-5" id="request" style = "color: #d63384; font-size: 20px"></div>
