@@ -60,6 +60,13 @@ const html = `
 <html>
 	<head>
 	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	    <style>
+	        .btn-outline-danger:hover {
+	            background-color: transparent;
+                color: #dc3545 !important;
+                text-decoration: none;
+            }
+	    </style>
 	</head>
 	<body>
 	    <div class="container">
@@ -74,7 +81,7 @@ const html = `
                             <code>@cf/openai/whisper</code> will convert your speech-to-text.</br>
                             <code>@cf/mistral/mistral-7b-instruct-v0.1</code> will respond if you ask for something nice. </br>
                             </br>
-                            <b>This site needs access to your microphone. Your audio data will be converted to a WAVE PCM file within a Cloudflare Worker and is only used for speech-to-text recognition. No audio data will be stored.</b></br>
+                            <b>This site will ask to get access to your microphone. Your audio data will be converted to a WAVE PCM file within a Cloudflare Worker and is only used for speech-to-text recognition. No audio data will be stored.</b></br>
                             </br>
                             <a style = "color: #d63384;" href = "https://github.com/cehrig/workers-ai-microphone-speech-to-text/tree/main">Source on GitHub</a>  
                         </p>
